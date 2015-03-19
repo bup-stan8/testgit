@@ -10,8 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btn1: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        btn1.backgroundColor = UIColor(white: 0.4, alpha: 0.4)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
